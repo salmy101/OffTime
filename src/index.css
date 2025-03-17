@@ -1,0 +1,43 @@
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif; */
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: #E3F0AF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#header{
+  border: 2px;
+  border-color: black;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#headerButtons{
+  display: flex;
+  width: 50px;
+  justify-content: space-between;
+}
+.button{
+  
+}
+
+#mainSection {
+  width: 450px;
+  height: 500px;
+  background-color: #FBF6E9;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
