@@ -11,3 +11,6 @@
 
 1. An egg timer created by [Nashallery on Youtube](https://www.youtube.com/watch?v=4TODW-IP4XM&t=15s) using [Electon JS](https://www.electronjs.org/)
 2. This instagram reel by [@taislany](https://www.instagram.com/p/DF5xeEoMDLq/)
+
+## App Preview
+![App Screenshot](./images/homepage.png)
