@@ -13,4 +13,8 @@
 2. This instagram reel by [@taislany](https://www.instagram.com/p/DF5xeEoMDLq/)
 
 ## App Preview
-![App Screenshot](./images/homepage.png)
+![Home Page](./images/homepage.png)
+
+![Menu]](./images/menu.png)
+
+![Output](./images/output.png)
