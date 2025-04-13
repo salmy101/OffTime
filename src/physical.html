@@ -6,16 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="index.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+
 </head>
 <body>
-  <div class="topnav">
-    <a href="index.html">HOME</a>
-    <a href="physical.html">PHYSICAL</a>
-  </div>
-  <h1>Physical IDEAS HUB</h1>
+ 
+  <section class="header">
+    <h1 id="title">
+      <a href="home.html">OffTime</a>
+    </h1>
+    <!-- <section id="headerButtons">
+      <button id="minimize">-</button>
+      <button id="button-exit">X</button>
+    </section> -->
+  </section>
 
-  <button onClick="getPhysicalIdea()">Physical Idea</button>
-  <p id="output">Output Goes here</p>
+  <section class="mainSection">
+    <h2>Click the button to generate a Physical way to spend your time!</h2>
+      <button class="button button1" onClick="getPhysicalIdea()">
+        Physical Ideas
+      </button>
+      <p id="output">Output Goes here</p>
+      <script src="script.js"></script>      </button>
+  </section>
   <script src="script.js"></script>
 
     

@@ -4,39 +4,47 @@
     <meta charset="UTF-8" />
     <title>Notes App</title>
     <link rel="stylesheet" href="index.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+      </style>
   </head>
   <body>
     
-    <div class="topnav">
-      <a href="index.html">HOME</a>
-      <a href="physical.html">PHYSICAL</a>
-    </div>
+    <section class="header">
+      <h1 id="title">
+        <a href="home.html">OffTime</a>
+      </h1>
+      <!-- <section id="headerButtons">
+        <button id="minimize">-</button>
+        <button id="button-exit">X</button>
+      </section> -->
+    </section>
     
-    <h1 id="title">title goes here</h1>
-    <p>Welcome to your Note taking application. </p>
-    <section id="buttonSection">
-      <button>
-        <a href="creative.html">CREATIVE IDEAS</a>
-      </button>
-
-      <button>
-        <a href="physical.html">Physical IDEAS</a>
-      </button>
-      <button>
-        <a href="intellectual.html">Intellectual IDEAS</a>
-      </button>
-      <button>
-        <a href="relaxing.html">relaxing IDEAS</a>
-      </button>
-
+      <section class="mainSection">
+        <h2>What type of activity would you like to do today? </h2>
+        <section id="buttonSection">
+          <button class="button button2">
+            <a href="creative.html">Creative</a>
+            <img src="/Users/salmaibrahim/lighthouse/timer/my-app/src/art_1756752.png" />
+          </button>
+          <button class="button button2">
+            <a href="physical.html">Physical</a>
+            <img src="/Users/salmaibrahim/lighthouse/timer/my-app/src/dumbbell_1178867.png" />
+          </button>
+          <button class="button button2">
+            <a href="intellectual.html">Intellectual</a>
+            <img src="/Users/salmaibrahim/lighthouse/timer/my-app/src/brain_595090.png" />
+          </button>
+          <button class="button button2">
+            <a href="relaxing.html">Relaxing</a>
+            <img src="/Users/salmaibrahim/lighthouse/timer/my-app/src/hot-stones_1378438.png" alt="relaxing hot stones">
+          </button>
+      </section>
     </section>
 
     <!-- <p id="output">Output Goes here</p>
     <button onClick="getCreativeIdea()">Creative Idea</button>
      -->
-
-
-    
     <script src="script.js"></script>
   </body>
 </html>
